@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0
+}
+
+html, body {
+  height: 100%;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+}
+
+header {
+  height: 12rem;
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  text-decoration: none;
+}
+
+main {
+  height: calc(100% - 20rem);
+  background-color: rgb(115, 255, 0)
+}
+
+footer {
+  height: 8rem;
+  background-color: aquamarine
+}

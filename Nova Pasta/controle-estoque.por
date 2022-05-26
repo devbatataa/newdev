@@ -2,7 +2,7 @@ programa {
 	funcao inicio() {
 		inteiro operacao=1
 
-		enquanto(operacao !=0 ) { 
+		enquanto(operacao !=0 ) {
 			mostrarMenu()
 			leia(operacao)
 			limpa()
@@ -50,7 +50,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 149; 
+ * @POSICAO-CURSOR = 79; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
